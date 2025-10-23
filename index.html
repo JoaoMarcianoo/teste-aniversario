@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Um presente pra você 💛</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #e0ffe0, #b3ffd9);
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 40px;
+      max-width: 400px;
+      animation: fadeIn 1.2s ease;
+    }
+    h1 {
+      color: #2b7a4b;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .heart {
+      font-size: 2em;
+      animation: pulse 1.5s infinite;
+      color: #ff4d6d;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Oi, meu amor 💛</h1>
+    <p>
+      Fiz essa página só pra você.<br>
+      Uma forma simples, mas sincera, de dizer o quanto você é especial pra mim.<br><br>
+      Espero que esse gesto arranque pelo menos um sorriso do seu rosto :)
+    </p>
+    <div class="heart">❤</div>
+  </div>
+</body>
+</html>
